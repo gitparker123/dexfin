@@ -1,0 +1,346 @@
+@import './scss/vars/colors';
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.01em;
+}
+.our-products {
+  text-align: center;
+  color: $grey1;
+  margin: 2px 0px;
+  padding: 5px;
+
+  font-weight: revert;
+}
+.product-description {
+  font-weight: revert;
+  font-size: 14px;
+}
+.bg-overlay {
+  background-image: url('./Assets/img/section.png');
+  // height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.section-bg {
+  background-image: url('./Assets/img/section-bg.png');
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.section-bg-image {
+  margin-top: 100px;
+}
+.main-heading {
+  color: black;
+  margin-left: 150px;
+  margin-top: 250px;
+  font-weight: bold;
+  font-size: 45px;
+}
+.main-para {
+  color: #303f4d;
+  margin-left: 200px;
+  margin-top: 25px;
+}
+.main-div {
+  color: black;
+  // margin-left: 450px;
+  text-align:center;
+  margin-top: 25px;
+}
+.main-btn {
+  margin: 5px;
+}
+.card-section {
+  margin-top: 100px;
+}
+.btn-card {
+  display: block;
+  width: 100%;
+}
+
+.chart-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}
+.chart-image .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.chart-image:hover .img-top {
+  display: inline;
+}
+.advance-tool {
+  margin-top: 60px;
+}
+.plus-image {
+  background-image: url('./Assets/img/section.png');
+  height: 200px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5px;
+}
+.image-section {
+  margin-top: 60px;
+}
+.advance-btn {
+  left: 41%;
+  position: absolute;
+}
+.digital {
+  margin-top: 50px;
+}
+.digital-heading {
+  text-align: center;
+}
+.advance-heading {
+  text-align: center;
+}
+.chart-image2 {
+  background-image: url('./Assets/img/section.png');
+  height: 200px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5px;
+}
+.image-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.support-text {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+.support-section {
+  padding: 100px;
+  margin: 100px;
+}
+.setup-section {
+  background-image: url('./Assets/img/upfooter-bg.png');
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+}
+.footer-img {
+  margin-top: 35px;
+}
+.icon-style {
+  margin-left: 10px;
+  font-size: 23px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer-img {
+    display: none;
+  }
+  .support-text {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .support-section {
+    padding: 50px;
+    margin: 50px;
+  }
+  .section-bg {
+    margin-top: 0px;
+    height: 300px;
+    width: 100%;
+  }
+  .advance-heading {
+    text-align: center;
+    font-size: 20px;
+  }
+  .digital-heading {
+    text-align: center;
+    font-size: 20px;
+  }
+  .advance-btn {
+    left: 33%;
+    position: absolute;
+  }
+  .image-section {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .card-section {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  .advance-tool {
+    margin-top: 20px;
+  }
+  .main-heading {
+    color: black;
+    margin-left: 70px;
+    margin-top: 170px;
+    font-size: 20px;
+  }
+  .main-para {
+    color: #303f4d;
+    margin-left: 70px;
+    margin-top: 25px;
+    display: block;
+  }
+  .main-div {
+    color: black;
+    // margin-left: 70px;
+    margin-top: 25px;
+    text-align:center;
+  }
+}
+.copyright {
+  list-style: none;
+}
+.copyright .copyright-list {
+  display: inline-block;
+  margin-left: 10px;
+  color: $grey2;
+}
+.copyright-text {
+  color: $grey2;
+}
+@media (min-width: 481px) and (max-width: 800px) {
+  .footer-img {
+    display: none;
+  }
+  .section-bg {
+    margin-top: 0px;
+    height: 300px;
+    width: 100%;
+  }
+  .digital-heading {
+    text-align: center;
+  }
+  .card-section {
+    margin-top: 50px;
+  }
+  .main-heading {
+    color: black;
+    margin-left: 70px;
+    margin-top: 170px;
+    font-size: 20px;
+  }
+  .main-para {
+    color: #303f4d;
+    margin-left: 70px;
+    margin-top: 25px;
+    display: block;
+  }
+  .main-div {
+    color: black;
+    // margin-left: 130px;
+    margin-top: 25px;
+    text-align:center;
+  }
+}
+
+.storage {
+  display: none;
+  color: #23cc89;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+}
+
+/* Float four columns side by side */
+.grid-column {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.grid-row {
+  margin: 0 50px;
+}
+
+/* Clear floats after the columns */
+.grid-row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+}
+
+/* Style the counter cards */
+.grid-card {
+  box-shadow: 0 4px 8px 0 white;
+  text-align: center;
+  background-color: white;
+  box-sizing: border-box;
+
+  padding: 20px 10px;
+  height: 180px;
+}
+.grid-card:hover {
+  box-shadow: 0 20px 40px 10px whitesmoke;
+  .storage {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* Float four columns side by side */
+.grid-column-service {
+  float: left;
+  width: 40%;
+  padding: 0 100px;
+}
+@media screen and (max-width: 600px) {
+  .grid-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .grid-column-service {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+}
+/* Remove extra left and right margins, due to padding */
+.grid-row-service {
+  margin: 0 100px;
+}
+
+/* Clear floats after the columns */
+.grid-row-service:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.grid-card-service {
+  box-shadow: 0 4px 8px 0 white;
+  padding: 16px;
+  text-align: justify;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 20px 40px 0 whitesmoke;
+}
+.para {
+  margin-left: 100px;
+}
